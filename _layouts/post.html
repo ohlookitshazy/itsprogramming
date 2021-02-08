@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+{% assign currentCategory = page.categories[0] %}
+  <header class="post-header">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        {% if currentCategory != null %}
+
+        <li class="breadcrumb-item">
+          <a href="/{{ currentCategory | slugify }}">{{ page.categories[0] }}</a>
+        </li>
+        
+        {% else %}
+
+        {% endif %}
+
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title | escape }}</li>
+      </ol>
+    </nav>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}{% include reading-time.html content=content %}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}</p>
+
+      {% for tag in page.tags %}
+      <span class="badge badge-dark">{{ tag }}</span>
+      {% endfor %}
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+
+    {{ content }}
+
+    {% assign categoryPosts = site.posts | where: "categories", page.categories[0] %}
+
+    {% if page.categories.size > 0 %}
+
+      {% assign previousIndex = page.index | minus: 1 %}
+      {% assign previouspost = categoryPosts | where: "index", previousIndex %}
+
+      {% assign nextIndex = page.index | plus: 1 %}
+      {% assign nextpost = categoryPosts | where: "index", nextIndex %}
+
+      <div class="row post-footer-navigation-wrapper">
+      {% include previous-post.html previouspost=previouspost %}
+      {% include next-post.html nextpost=nextpost %}
+      </div>
+
+    {% endif %}
+
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

@@ -1,0 +1,11 @@
+<div class="col-sm-6">
+{% for post in include.previouspost %}
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{ post.excerpt }}</p>
+            <a href="{{ post.url }}" class="btn btn-primary">Previous Post</a>
+        </div>
+    </div>
+{% endfor %}
+</div>

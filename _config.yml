@@ -1,0 +1,11 @@
+# theme: minima
+github: [metadata]
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+description: >
+  A free course on how to learn programming. Simple, practical, open sourced and constantly evolving. Created by Hazy, using Jekyll and GitHub!
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
+permalink: :title:output_ext
