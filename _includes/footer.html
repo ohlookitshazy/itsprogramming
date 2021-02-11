@@ -8,7 +8,7 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
-            2018-2020, made by <a href="https://itshazy.com" target="_blank">Hazy</a>
+            2018-<span id="footer-year"></span> made by <a href="https://itshazy.com" target="_blank">Hazy</a>
         </ul>
       </div>
 
@@ -24,3 +24,5 @@
   </div>
 
 </footer>
+
+<script>document.getElementById("footer-year").innerHTML = new Date().getFullYear();</script>
