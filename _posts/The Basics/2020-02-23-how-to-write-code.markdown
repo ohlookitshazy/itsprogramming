@@ -59,7 +59,7 @@ Then just write "index.html". The editor automatically sets the extension and af
 
 <img src="/assets/img/VSC_MyProjectVisualStudioCode3.png" class="mx-auto my-5">
 
-Now let's add the elements from the [previous post]({% post_url 2020-02-22-what-is-programming %}) and save the file.
+Now let's add the elements from the [previous post](/what-is-programming) and save the file.
 
 <pre><code class="language-html">&lt;h1>I am a heading.&lt;/h1>
 &lt;h2>I am a heading.&lt;/h2>
