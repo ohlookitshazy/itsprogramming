@@ -112,12 +112,7 @@ So let's add one! I omitted HTML for brevity and just copied over the card from 
 
 You should now see something like this:
 
-<p class="codepen" data-height="518" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="zYvPYQJ" style="height: 518px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Bootstrap Example 3">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/zYvPYQJ">
-  Bootstrap Example 3</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/abou4yrs/1/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 Already a few things stand out in the example:
 
@@ -278,9 +273,4 @@ Don't think practicing layouts like this is pointless. You can reuse any of thes
 
 ## Final Example
 
-<p class="codepen" data-height="585" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="eYpeYqK" style="height: 585px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Bootstrap Example 4">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/eYpeYqK">
-  Bootstrap Example 4</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/06yL8kgv/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

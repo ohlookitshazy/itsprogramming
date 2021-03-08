@@ -7,7 +7,7 @@ tags: [programming, bootstrap, html, css, javascript]
 index: 1
 ---
 
-Now that we know what dev tools are and what the different windows can be used for, let's put it to good use. So let's bring in more code to look at and learn how to build modern, responsive websites in a very practical way.
+Now that we know what dev tools are and what the different windows can be used for, let's put it to good use. So let's bring in more code to look at and learn how to build modern, responsive websites.
 
 # Bootstrap?
 
@@ -109,24 +109,11 @@ You can also test it by just trying to add an element, that is defined by Bootst
 </html>
 ```
 
-# Adding Bootstrap in Codepen
+# Adding Bootstrap in JSFiddle.net
 
-You might be wondering: "Ok, but what if i'd like to play around with Bootstrap in Codepen?"
+You might be wondering: "Ok, but what if i'd like to play around with Bootstrap in JSFiddle?"
 
-So to do that, you don't have to import it manually every time. It's as simple as:
+To do that, you can import the .css file via the "Resources" tab on the left. Like in the example below, when you open it fully by clicking "Edit in JSFiddle".
 
-* Clicking the cogwheel icon in the "CSS" window,
-* Find the searchbar under "Add External Stylesheets/Pens",
-* Type: "Bootstrap",
-* Select: "twitter-bootstrap",
-* Click "Save & Close"
-
-Now you can just write HTML without any noise:
-
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="QWjqPOr" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Bootstrap Example">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/QWjqPOr">
-  Bootstrap Example</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/g8nfhrse/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 

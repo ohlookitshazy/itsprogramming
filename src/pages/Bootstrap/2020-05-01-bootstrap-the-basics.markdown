@@ -38,12 +38,7 @@ In Bootstrap, the grid is being controlled by 3 CSS classes and **they always ha
 
 To better understand how they interact, let's add some colors to them:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="itsprogramming" data-slug-hash="wvKrZRm" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Bootstrap Example 2">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/wvKrZRm">
-  Bootstrap Example 2</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/1zgf7bkt/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 So I colored each one and made the text white, so that we can see it on the darker backgrounds. I added some text too, so that there's some content present as well. Opening the full example via the "Edit on Codepen" might help understand the example better.
 
@@ -151,14 +146,9 @@ You can reveal the container the same way, just add a margin to the bottom:
 
 As you see the basics are simple, but important. I've had multiple cases where i've been wrestling with paddings and margins, and even linebreaks to get some elements positioned properly. 
 
-If you'd add another row and remove row margins from the CSS, you'd literally get a tic-tac-toe grid, like this:
+If you'd add another row and remove row margins from the CSS, you'd literally get a tic-tac-toe grid (when you open the full example on JSFiddle), like this:
 
-<p class="codepen" data-height="481" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="RwWLOzZ" style="height: 481px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Bootstrap Example 3">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/RwWLOzZ">
-  Bootstrap Example 3</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/5ncwqfuj/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 # Overriding Bootstrap 
 

@@ -259,12 +259,7 @@ Well, it's a form element. It doesn't do anything, because it's not wired to any
 
 Easy. Just place the entire nav within the same (or an identical) "container" div:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="itsprogramming" data-slug-hash="rNOYaJR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Bootstrap Example 5">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/rNOYaJR">
-  Bootstrap Example 5</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/cexwzvrL/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 More info [here](https://getbootstrap.com/docs/4.4/components/navbar/#containers).
 
@@ -280,8 +275,6 @@ When importing jQuery, make sure it is the same version shown in [the docs](http
 <!-- The jQuery imported below is of version "3.4.1", so change this number whenever you're importing jQuery in Codepen too -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 ```
-
-Codepen will offer you the newest version instead
 
 # Additionally:
 

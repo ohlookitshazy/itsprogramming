@@ -51,12 +51,7 @@ The second row has column size provided with the class name. So you can specify 
 </div>
 ```
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="itsprogramming" data-slug-hash="bGVYdQy" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Bootstrap Example 6">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/bGVYdQy">
-  Bootstrap Example 6</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/509fnzde/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 You don't have to specify all column sizes though, in this case, the 3rd rows second column will automatically take up 4 column spaces, because that's all that is left, after the first one takes 8/12.
 
@@ -94,12 +89,7 @@ Since the breakpoint class names are shared, you can easily add as many as are n
 
 For example:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="gOaXpVE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Bootstrap Example 7">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/gOaXpVE">
-  Bootstrap Example 7</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="240" src="//jsfiddle.net/itshazy/cw1tbek6/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 This column will be:
 
@@ -117,9 +107,4 @@ Another important aspect, to achieve more specific and advanced layouts is nesti
 
 There's [an example in the docs](https://getbootstrap.com/docs/4.4/layout/grid/#nesting), but I'm not sure why they used breakpoint classes "col-sm-6" in them, here's the same example, but simplified:
 
-<p class="codepen" data-height="374" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="yLYPYYa" style="height: 374px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Bootstrap Example 8">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/yLYPYYa">
-  Bootstrap Example 8</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/w04agz8o/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
