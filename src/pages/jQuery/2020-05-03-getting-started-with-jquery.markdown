@@ -19,12 +19,7 @@ Let's dive into each of these areas (be sure to check out the ["jQuery Learning 
 
 Let's load up a fresh project, with Bootstrap in it, so we also get jQuery and some UI to play with. I will use Codepen to avoid writing a lot of redundant code, but so you can still see the full picture.
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="GRpOrBK" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="jQuery Example">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/GRpOrBK">
-  jQuery Example</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/7ytr3bpL/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 Just a simple container div with text centered, via Bootstrap class "text-center", so that it looks tidy.
 
