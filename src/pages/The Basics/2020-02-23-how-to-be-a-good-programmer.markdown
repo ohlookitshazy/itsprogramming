@@ -33,8 +33,4 @@ As Wikipedia states: "Many programmers have had the experience of explaining a p
 
 I myself have written questions to colleagues, only before hitting "Enter" I realize, that the answer is hidden in the question itself.
 
-# Continue to HTML
 
-In the next post, we will take a look at actually writing code.
-
-<iframe src="https://giphy.com/embed/11e0gEWxYoSYTK" width="480" height="197" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reactiongifs-mrw-oc-11e0gEWxYoSYTK">via GIPHY</a></p>

@@ -8,7 +8,6 @@ index: 1
 ---
 
 Starting with the simple question of - What is programming? 
-![Gatsby](./icon.png)
 As stated in the [Wikipedia](https://en.wikipedia.org/wiki/Computer_programming):
 
 > Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result.

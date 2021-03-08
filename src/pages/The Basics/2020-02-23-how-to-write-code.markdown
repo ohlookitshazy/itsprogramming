@@ -15,21 +15,21 @@ We're going to use [Visual Studio Code](https://code.visualstudio.com/) to write
 
 So download it, install it and while installing, be sure to check both the *"Add "Open with Code"* action to file/directory Context menu" options, like so:
 
-<img src="/assets/img/VSC_InstallationCheckboxes.png" class="mx-auto my-5">
+![Installation Checkboxes](./VSC_InstallationCheckboxes.png)
 
-The first one is, of course, optional. The 2nd and 3rd will allow you to very easily open any folder or file with the right mouse button click, it will look like so:
+The first one is, of course, optional. The 2nd and 3rd will allow you to very easily open any folder or file with the right mouse button click, like so:
 
-<img src="/assets/img/OpenWithCode.png" class="mx-auto my-5">
+![Open With Code](./VSC_OpenWithCode.png)
 
-The 3rd will allow you to automatically open any code-related file with Visual Studio Code instantly. The 4th one, judging by the official documentation, will allow you to launch Visual Studio Code from the CLI, if you do not know what that is, don't worry. It probably does other things aswell and it doesn't hurt to add it to PATH, again, if you do not know what that means, don't worry.
+The 4th will allow you to automatically open any code-related file with Visual Studio Code instantly. The 5th one, judging by the official documentation, will allow you to launch Visual Studio Code from the CLI, if you do not know what that is, don't worry. It probably does other things aswell and it doesn't hurt to add it to PATH.
 
 # Running Visual Studio Code for the first time
 
-<a href="/assets/img/VSC_FirstTimeRunning.png" target="_blank"><img src="/assets/img/VSC_FirstTimeRunning.png" class="mx-auto my-5"></a>
+![Visual Studio Code Home screen](./VSC_FirstTimeRunning.png)
 
 If everything went successfuly then this is what you should see. Let's break down the layout.
 
-<a href="/assets/img/VSC_Layout_MajorBlocks.png" target="_blank"><img src="/assets/img/VSC_Layout_MajorBlocks.png" class="mx-auto my-5"></a>
+![Visual Studio Code UI windows](./VSC_Layout_MajorBlocks.png)
 
 Outlined in green you see the sidebar, this is where you will organize your project, choose files for editing, and much, much more. Currently, the file editing part is the important one.
 
@@ -43,33 +43,34 @@ So the sidebar and the main work area are the main places you will focus on.
 
 Let's take a look what the check boxes we checked during the installation actually do for us. Close the currently open Visual Studio Code window for now. Go anywhere in your computer and create a new folder, name it whatever you want and open it. Then right click anywhere in the folder.
 
-<a href="/assets/img/VSC_MyProjectBlankFolder.png" target="_blank"><img src="/assets/img/VSC_MyProjectBlankFolder.png" class="mx-auto my-5"></a>
+![Open With Code](./VSC_MyProjectBlankFolder.png)
 
 What you see is called the context menu, within it you see "Open with Code", clicking this will automatically launch Visual Studio Code with this folder that you have just clicked the button in.
 
-<a href="/assets/img/VSC_MyProjectVisualStudioCode.png" target="_blank"><img src="/assets/img/VSC_MyProjectVisualStudioCode.png" class="mx-auto my-5"></a>
+![Open With Code](./VSC_MyProjectVisualStudioCode.png)
 
 You can confirm this by looking in the side bar, you will see the name of the folder, just under the "Open Editors" sub-menu. Open Editors is the same as the tabs that are currently open in the main work area. You can close the "Welcome" tab, so you see the above screen.
 
 Now let's create our HTML elements again with Visual Studio Code. In the sidebar, right-click and select "New File" as in the image below. 
 
-<img src="/assets/img/VSC_MyProjectVisualStudioCode2.png" class="mx-auto my-5">
+![Open With Code](./VSC_MyProjectVisualStudioCode2.png)
 
 Then just write "index.html". The editor automatically sets the extension and after pressing "Enter" you should see this:
 
-<img src="/assets/img/VSC_MyProjectVisualStudioCode3.png" class="mx-auto my-5">
+![Open With Code](./VSC_MyProjectVisualStudioCode3.png)
 
 Now let's add the elements from the [previous post](/what-is-programming) and save the file.
 
-<pre><code class="language-html">&lt;h1>I am a heading.&lt;/h1>
-&lt;h2>I am a heading.&lt;/h2>
-&lt;h3>I am a heading.&lt;/h3>
-&lt;h4>I am a heading.&lt;/h4>
-&lt;h5>I am a heading.&lt;/h5>
-&lt;h6>I am a heading.&lt;/h6>
-</code></pre>
+```html
+<h1>I am a heading.</h1>
+<h2>I am a heading.</h2>
+<h3>I am a heading.</h3>
+<h4>I am a heading.</h4>
+<h5>I am a heading.</h5>
+<h6>I am a heading.</h6>
+```
 
-Now to see your code in action, you need to feed it to a web browser. Open your favorite one, then just simply drag the file from the project folder into the address bar (where you normally would write links in) and hit "Enter".
+To see your code in action, you need to feed it to a web browser. Open your favorite one, then just simply drag the file from the project folder into the address bar (where you normally would write links in) and hit "Enter".
 
 Now you should see your HTML being rendered in the browser, just like you saw in the previous post.
 
@@ -85,6 +86,6 @@ After it's installed, simply press "F1" and start typing "live" and you'll see a
 
 Try removing a few headings and saving the file, the browser should refresh to show your changes and saving you from the manual labor of refreshing yourself every time. Neat!
 
-# CodePen.io
+# JSFiddle.net
 
-As you might've noticed, some examples are already rendered within the page, by using CodePen.io, which is an awesome free service, which allows you to play in isolated mini "environments". Thus instead of screenshots I will attempt to provide examples purely from there, so that you can see the full picture at any given moment and play around with it, without breaking anything serious.
+As you might've noticed, some examples are already rendered within the page, by using [JSFiddle.net](https://jsfiddle.net/), which is an awesome free service, which allows you to play in isolated mini "environments". Thus instead of screenshots I will attempt to provide more examples from there, so that you can see the full picture at any given moment and play around with it, without breaking anything serious.

@@ -58,3 +58,9 @@ If you get a gut feeling about something in particular, go for it. The worst thi
 Once that basket hits a bump, all of the eggs will come flying out. So be sure to not store them all in one basket in the first place.
 
 In my opinion: specialization is for insects. Once you step into the software development world, you're an artist and artists that only maneuver in one frequency are very, boring and probably frustrated once change comes around.
+
+# Continue to HTML
+
+In the next post, we will take a look at actually writing code.
+
+<iframe src="https://giphy.com/embed/11e0gEWxYoSYTK" width="480" height="197" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reactiongifs-mrw-oc-11e0gEWxYoSYTK">via GIPHY</a></p>
