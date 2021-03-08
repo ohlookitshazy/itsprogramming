@@ -15,23 +15,13 @@ To get started, just download the CSS file from their website and import it into
 
 You can also import it into a Codepen, like I've done below:
 
-<p class="codepen" data-height="586" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="oNjoqyQ" style="height: 586px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Animate.css Example">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/oNjoqyQ">
-  Animate.css Example</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="597" src="//jsfiddle.net/itshazy/Lh3cv74w/1/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 As you saw on their site, the dropdown displays many animation names, so to get the animation going, all you have to do is add the animation name to an element "animation" property, as we did before. 
 
 Let's try it out:
 
-<p class="codepen" data-height="597" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="VwvrXGR" style="height: 597px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Animate.css Example 2">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/VwvrXGR">
-  Animate.css Example 2</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="597" src="//jsfiddle.net/itshazy/z4nr9pga/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 To have it play once, just change the value "infinite" to "1".
 
@@ -41,12 +31,7 @@ You could actually mimic that "loading" effect by setting a delay (or timeout) i
 
 **Example:**
 
-<p class="codepen" data-height="799" data-theme-id="dark" data-default-tab="js,result" data-user="itsprogramming" data-slug-hash="dyYZmwr" data-preview="true" style="height: 799px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Spinner Example">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/dyYZmwr">
-  Spinner Example</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/mkpan1uh/2/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 The way I defined the HTML that's going into the ".html()" function is important, I didn't use either single quotes ('') or double quotes ("") here, I used what is known as "backticks" or (``). Usually they're located above your "TAB" key. They allow you not only to break the content into multiple lines, like above, but also to directly input variables into your strings, like this:
 
