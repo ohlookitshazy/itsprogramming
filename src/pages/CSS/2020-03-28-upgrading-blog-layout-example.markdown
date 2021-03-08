@@ -9,7 +9,7 @@ index: 5
 
 Let's take the blog layout we looked at in the ["HTML Layout and Styles"](/html-layout-and-styles.html) post:
 
-<img src="/assets/img/BlogLayoutDivs_2.png"/>
+<img src="../HTML/BlogLayoutDivs_2.png"/>
 
 Let's also take the code we ended up with at the end of that post and re-create the layout as seen in the screenshot above, but slightly better.
 
@@ -52,12 +52,7 @@ Let's also take the code we ended up with at the end of that post and re-create 
 
 The first thing before we change any styles, would be to copy over the existing inline styles into a separate .css file.
 
-<p class="codepen" data-height="900" data-theme-id="dark" data-default-tab="html" data-user="itsprogramming" data-slug-hash="vYOvvoP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Blog Layout Example">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/vYOvvoP">
-  Blog Layout Example</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/ew67cnLm/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 Here's how I'd do it. It makes sense. I added classes for each element I want to customize, gave them appropriate names and moved the styles to a separate file for maintainability. Now we could have 5 posts each with different content and have the same style applied. 
 
@@ -75,9 +70,9 @@ Then add an additional selector to our CSS:
 }
 ```
 
-Be careful though, because now all <code class="language-html"><h1></code> elements within the <code class="language-html"><div class="content"></code> will have the change applied. Because we are specifying to apply styles to all <code class="language-html"><h1></code> elements, within elements that have 'class="content"' on them.
+Be careful though, because now all `<h1>` elements within the `<div class="content">` will have the change applied. Because we are specifying to apply styles to all `<h1>` elements, within elements that have 'class="content"' on them.
 
-If you'd like to specify only the blog title, you should add a class to it instead. In our case I will keep that title as the most important title as the only H1 heading and other headings, like for example, the post headings are of lower importance, thus I've already set it to be an <code class="language-html"><h2></code> element instead. Continuing this pattern, I've also set the sidebar heading, which is even less important, to use the <code class="language-html"><h3></code> element. This allows me to target those headings individually, without writing additional classes.
+If you'd like to specify only the blog title, you should add a class to it instead. In our case I will keep that title as the most important title as the only H1 heading and other headings, like for example, the post headings are of lower importance, thus I've already set it to be an `<h2>` element instead. Continuing this pattern, I've also set the sidebar heading, which is even less important, to use the `<h3>` element. This allows me to target those headings individually, without writing additional classes.
 
 While we're at it, let's change it's size as well:
 
@@ -88,7 +83,7 @@ While we're at it, let's change it's size as well:
 }
 ```
 
-Now for the blog description, since it shares the same connection with the <code class="language-html"><div class="content"></code> element, as in you can target the blog description and all other paragraphs simply by writing a CSS selector that targets any <code class="language-html"><p></code> elements, that are within the <code class="language-html"><div class="content"></code> element. 
+Now for the blog description, since it shares the same connection with the `<div class="content">` element, as in you can target the blog description and all other paragraphs simply by writing a CSS selector that targets any `<p>` elements, that are within the `<div class="content">` element. 
 
 So we'd use something like this:
 
@@ -100,14 +95,9 @@ So we'd use something like this:
 
 This is how your code should look like by now:
 
-<p class="codepen" data-height="1000" data-theme-id="dark" data-default-tab="html" data-user="itsprogramming" data-slug-hash="NWqeojb" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Blog Layout Example 2">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/NWqeojb">
-  Blog Layout Example 2</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/dck7h2zq/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-Notice that you could've instead selected each div and set specifically their paragraph element styles, but that would result in 3x the code. Instead, try to use a practical structure, which in this case allows us to just target all elements within a so called "parent" element, which in our case is the <code class="language-html"><div class="content"></code> element.
+Notice that you could've instead selected each div and set specifically their paragraph element styles, but that would result in 3x the code. Instead, try to use a practical structure, which in this case allows us to just target all elements within a so called "parent" element, which in our case is the `<div class="content">` element.
 
 In fact, we can go even further and use an element that's already present and make all of this custom font stuff very fast and simple.
 
@@ -123,12 +113,7 @@ It makes sense, because the body element always holds all of the page content. S
 
 Your CSS should now be like this:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css" data-user="itsprogramming" data-slug-hash="LYVMqro" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Blog Layout Example 3">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/LYVMqro">
-  Blog Layout Example 3</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/4q6Lo2pz/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 Looking good! 👍🏼
 
@@ -162,12 +147,7 @@ As an added benefit, our "gray-text" class is now added on elements, that we'd l
 
 Now our blog layout page really starts taking form and the titles look nice and tidy (open the full example):
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="itsprogramming" data-slug-hash="KKpbJxy" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Blog Layout Example 4">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/KKpbJxy">
-  Blog Layout Example 4</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="778" src="//jsfiddle.net/itshazy/L6hqu2pm/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 Of course viewing it via the CodePen widget will squeeze your page into a different way than it looks when you open the full example on CodePen. This is because we are not taking into account the responsivity aspect of websites just yet. So the layout is the same if you would open it on a phone, basically. The margin-left property we have used doesn't really allow the content to resize properly when scaled down. This is one of the main ideas for responsive design in general - How to create a design that takes care of the content both on horizontal and vertical screens. This includes stuff like deciding to hide elements, like the navigation bar, for example, since there is simply no space for it and deciding to hide it behind the so called "burger" icon instead. 
 

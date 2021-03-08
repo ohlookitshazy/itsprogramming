@@ -36,12 +36,7 @@ h1 {
 
 ## Result
 
-<p class="codepen" data-height="169" data-theme-id="dark" data-default-tab="result" data-user="itsprogramming" data-slug-hash="xxGgYWW" style="height: 169px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Stylesheet Example 2">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/xxGgYWW">
-  Stylesheet Example 2</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/0q851ghb/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 # Targeting with CSS
 
@@ -90,9 +85,13 @@ The hierarchy of "importance" looks like this:
 
 So far we've covered targeting the element directly. Targeting by class and by id. 
 
-**What does "inline" mean?** It means writing CSS "in line" with HTML, like we did before! It is not recommended though, since it decreases maintainability.
+What does "inline" mean? 
 
-**What is "!important"?** Simply, it overrides any selectors (unless other !important ones exist) that have this added element. You add it like this:
+It means writing CSS "in line" with HTML, like we did before! It is not recommended though, since it decreases maintainability.
+
+What is `!important`?
+
+ Simply, it overrides any selectors (unless other !important ones exist) that have this added element. You add it like this:
 
 ```css
 h1 {

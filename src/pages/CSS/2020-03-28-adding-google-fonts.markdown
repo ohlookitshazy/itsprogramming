@@ -13,15 +13,15 @@ We will use the free font collection called "<a href='https://fonts.google.com/'
 
 It has many hundreds of fonts available for free. So choose one, like "Roboto" for example. Click the "+" in the upper right corner:
 
-<img src="/assets/img/GoogleFonts_Roboto.png"/>
+<img src="./GoogleFonts_Roboto.png"/>
 
 This will add it to your font selection.
 
-<img src="/assets/img/GoogleFonts_FontSelection.png"/>
+<img src="./GoogleFonts_FontSelection.png"/>
 
 Then click on the selection title to open it.
 
-<img src="/assets/img/GoogleFonts_RobotoSelection.png"/>
+<img src="./GoogleFonts_RobotoSelection.png"/>
 
 Then copy the <code class="language-html"><link></code> element into the <code class="language-html"><head></code> of your html file, like this:
 
@@ -51,18 +51,10 @@ Now you can just set the new font to any text element with CSS. Copy the second 
 
 Now you should see the font change to the new one.
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="GRJPwWE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="GRJPwWE">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/GRJPwWE">
-  GRJPwWE</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="240" src="//jsfiddle.net/itshazy/0mdv8s3w/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 Now you can try to change the font via the CSS file, if you get stuck, I have added the proper CSS version below:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="vYOvvoP" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Google Fonts Example 2">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/vYOvvoP">
-  Google Fonts Example 2</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="240" src="//jsfiddle.net/itshazy/0bm84e36/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+You can also load the fonts via the "Resources" tab on the left, when viewing the full JSFiddle example.

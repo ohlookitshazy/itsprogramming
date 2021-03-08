@@ -13,12 +13,7 @@ We will make the whole thing responsive, as in - able to change form for differe
 
 So here is how we left the project previously:
 
-<p class="codepen" data-height="997" data-theme-id="dark" data-default-tab="html" data-user="itsprogramming" data-slug-hash="KKpbJxy" style="height: 997px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Blog Layout Example 4">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/KKpbJxy">
-  Blog Layout Example 4</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/3mr9ja2t/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 In order to make the design responsive, we will change the way that the width of the elements is calculated, since phones, as an example, have a more vertical layout (unless you usually use it in landscape mode) and so the layout either breaks or is scaled down like an image and you have to pinch and zoom to navigate, which is less than ideal.
 
@@ -78,7 +73,7 @@ Cool! We have added a bit of responsivity to the design! You can verify that by 
 
 As of October 2016, more users are accessing content online via their mobile devices rather than desktop computers, so keep this in mind when developing designs.
 
-<img src="https://cdn.broadbandsearch.net/blog/mobile-desktop-internet-usage-statistics/Internet_Usage_Worldwide.jpg">
+<img style="width: 100%" src="https://cdn.broadbandsearch.net/blog/mobile-desktop-internet-usage-statistics/Internet_Usage_Worldwide.jpg">
 <a href="https://www.broadbandsearch.net/blog/mobile-desktop-internet-usage-statistics" target="_blank">Source: broadbandresearch.net</a>
 
 Feel free to play around with the example, make it fit your taste!
