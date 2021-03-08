@@ -8,9 +8,11 @@ import { SideNav } from '../components/side-nav';
 // markup
 const IndexPage = () => {
   return (
-    <React.Fragment>
-      <SideNav />
-    </React.Fragment>
+    <div className="p-grid">
+      <div className="p-col-2">
+        <SideNav />
+      </div>
+    </div>
   )
 }
 
