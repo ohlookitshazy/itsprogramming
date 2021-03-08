@@ -75,9 +75,9 @@ Then add an additional selector to our CSS:
 }
 ```
 
-Be careful though, because now all <code class="language-html">&lt;h1></code> elements within the <code class="language-html">&lt;div class="content"></code> will have the change applied. Because we are specifying to apply styles to all <code class="language-html">&lt;h1></code> elements, within elements that have 'class="content"' on them.
+Be careful though, because now all <code class="language-html"><h1></code> elements within the <code class="language-html"><div class="content"></code> will have the change applied. Because we are specifying to apply styles to all <code class="language-html"><h1></code> elements, within elements that have 'class="content"' on them.
 
-If you'd like to specify only the blog title, you should add a class to it instead. In our case I will keep that title as the most important title as the only H1 heading and other headings, like for example, the post headings are of lower importance, thus I've already set it to be an <code class="language-html">&lt;h2></code> element instead. Continuing this pattern, I've also set the sidebar heading, which is even less important, to use the <code class="language-html">&lt;h3></code> element. This allows me to target those headings individually, without writing additional classes.
+If you'd like to specify only the blog title, you should add a class to it instead. In our case I will keep that title as the most important title as the only H1 heading and other headings, like for example, the post headings are of lower importance, thus I've already set it to be an <code class="language-html"><h2></code> element instead. Continuing this pattern, I've also set the sidebar heading, which is even less important, to use the <code class="language-html"><h3></code> element. This allows me to target those headings individually, without writing additional classes.
 
 While we're at it, let's change it's size as well:
 
@@ -88,7 +88,7 @@ While we're at it, let's change it's size as well:
 }
 ```
 
-Now for the blog description, since it shares the same connection with the <code class="language-html">&lt;div class="content"></code> element, as in you can target the blog description and all other paragraphs simply by writing a CSS selector that targets any <code class="language-html">&lt;p></code> elements, that are within the <code class="language-html">&lt;div class="content"></code> element. 
+Now for the blog description, since it shares the same connection with the <code class="language-html"><div class="content"></code> element, as in you can target the blog description and all other paragraphs simply by writing a CSS selector that targets any <code class="language-html"><p></code> elements, that are within the <code class="language-html"><div class="content"></code> element. 
 
 So we'd use something like this:
 
@@ -107,7 +107,7 @@ This is how your code should look like by now:
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-Notice that you could've instead selected each div and set specifically their paragraph element styles, but that would result in 3x the code. Instead, try to use a practical structure, which in this case allows us to just target all elements within a so called "parent" element, which in our case is the <code class="language-html">&lt;div class="content"></code> element.
+Notice that you could've instead selected each div and set specifically their paragraph element styles, but that would result in 3x the code. Instead, try to use a practical structure, which in this case allows us to just target all elements within a so called "parent" element, which in our case is the <code class="language-html"><div class="content"></code> element.
 
 In fact, we can go even further and use an element that's already present and make all of this custom font stuff very fast and simple.
 

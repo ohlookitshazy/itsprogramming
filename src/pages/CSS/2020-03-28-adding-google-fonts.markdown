@@ -23,7 +23,7 @@ Then click on the selection title to open it.
 
 <img src="/assets/img/GoogleFonts_RobotoSelection.png"/>
 
-Then copy the <code class="language-html">&lt;link></code> element into the <code class="language-html">&lt;head></code> of your html file, like this:
+Then copy the <code class="language-html"><link></code> element into the <code class="language-html"><head></code> of your html file, like this:
 
 ```html
 <html>

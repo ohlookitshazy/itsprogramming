@@ -11,7 +11,7 @@ In the previous post we looked at the different elements that are most commonly 
 
 # How to move things around? 
 
-If you’re wondering if it will need another HTML tag – yes, this time its called a <code class="language-html">&lt;div></code>. That stands for “division“. The simplest way to understand how a div works, is to imagine that it’s a box. A box that holds any HTML elements you put into it, like this: 
+If you’re wondering if it will need another HTML tag – yes, this time its called a `<div>`. That stands for “division“. The simplest way to understand how a div works, is to imagine that it’s a box. A box that holds any HTML elements you put into it, like this: 
 
 
 ```html
@@ -62,11 +62,12 @@ Also self-explanatory, the value we want to change the default one from. In our 
 
 Just centering text is not enough, so let’s dig in further. Divs are a good way to split your webpage into boxes and to apply styles on all elements inside it.&nbsp;
 Let’s create a similiar blog type layout, to the one below.
-<img src="/assets/img/BlogLayoutDivs_2.png"/>
+
+<img src="./BlogLayoutDivs_2.png"/>
 
 The first thing you should start with when designing a web page, is to arrange everything in boxes. In this example I see 3 big ones:
 
-<img src="/assets/img/BlogLayoutDivs_1.png"/>
+<img src="./BlogLayoutDivs_1.png"/>
 
 Each of these boxes or divs, can be split even further, like for example, the sidebar has an “About” and an “Archives” box.
 
@@ -113,8 +114,7 @@ Now let’s add all of the content:
 Now when you refresh the web page, you might start to see how everything will go into its place soon enough. Time to make some divs! We need 3 of them:
 
 
-
-{%- capture basic-html-demo -%}
+```html
 <html>
 <body> 
     <div>
@@ -147,17 +147,13 @@ Now when you refresh the web page, you might start to see how everything will go
     </div>
 </body> 
 </html>
-{% endcapture %}
-
-<pre class="line-numbers" data-line="3, 6, 8, 16, 18, 30"><code class="language-html">
-{{- basic-html-demo | escape -}}
-</code> </pre>
+```
 
 As mentioned previously, just adding div tags wont change anything, so let’s add attributes. Since the example web page layout is nicely centered, let’s add a div around everything that we have currently, by the way, this is also called “wrapping” – when you “wrap” something in, for example div tags.
 
 So now you should have 4 divs in total, like so:
 
-{%- capture basic-html-demo-2 -%}
+```html
 <html>
 <body> 
     <div>
@@ -192,10 +188,8 @@ So now you should have 4 divs in total, like so:
     </div>
 </body> 
 </html>
-{% endcapture %}
-<pre class="line-numbers" data-line="3, 32"><code class="language-html">
-{{- basic-html-demo-2 | escape -}}
-</code> </pre>
+```
+
 Let’s start off by adding the following attribute to the very first div tag, the one that has all of the elements inside it:
 
 ```html
@@ -243,7 +237,7 @@ The code we just added, moves all of our html elements 25% from the left side of
 
 By default, divs are taking up all of the horizontal space, that’s why they are stacked on top of one another in our web page currently.
 
-<img src="/assets/img/InitialBlogLayout.png"/>
+<img src="./InitialBlogLayout.png"/>
 
 So lets change that. Add this to the lower two divs:
 
@@ -290,15 +284,19 @@ Change the width of the last div to be 20%, so that it doesn’t take up too muc
 </html>
 ```
 
-<img src="/assets/img/InitialBlogLayout (1).png"/>
+<img src="./InitialBlogLayout (1).png"/>
 
 Nice! Looking good! Now let’s analyze what we’ve just added:
 
-<pre><code class="language-css">width: 40%;</code> </pre>
+```css
+width: 40%;
+```
 
 Simply tells the element how wide it should be.
 
-<pre><code class="language-css">display: inline-block;</code> </pre>
+```css
+display: inline-block;
+```
 
 This tells the element to instead of taking all of the horizontal space on the page, it should allow other elements to be in-line with it, the "block" means that it still should be treated as a box element.
 

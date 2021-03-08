@@ -19,7 +19,7 @@ Then write the following:
 
 This is the HTML element, which is used to mark the beginning and the end of an HTML webpage. All of the content within HTML files should be "wrapped" with these tags.
 
-Then add an opening and closing tag for the <code class="language-html"><head></code> and <code class="language-html"><body></code> elements, like this:
+Then add an opening and closing tag for the `<head>` and `<body>` elements, like this:
 
 ```html
 <html>
@@ -40,10 +40,10 @@ The body holds all of the content that has to be shown on the page. Like heading
 
 By now we already know enough to construct a very simple HTML page. Let's take the setup we already have and start adding content to it.
 
-First, let's add a page title, in the <code class="language-html"><head></code> element, like so:
+First, let's add a page title, in the `<head>` element, like so:
 
 
-{%- capture html-demo -%}
+```html
 <html>
   <head>
     <title>My Page Title!</title>
@@ -52,17 +52,13 @@ First, let's add a page title, in the <code class="language-html"><head></code> 
   
   </body>
 </html>
-{% endcapture %}
-
-<pre data-line="3"><code class="language-html">
-{{- html-demo | escape -}}
-</code></pre>
+```
 
 Now you should see the title of the page switch to whatever is the content in the element.
 
 Now let's add a heading, you can also add a list and a few links if you'd like. I'll only add the heading.
 
-{%- capture html-demo-2 -%}
+```html
 <html>
   <head>
     <title>My Page Title!</title>
@@ -71,20 +67,17 @@ Now let's add a heading, you can also add a list and a few links if you'd like. 
     <h1>My Heading!</h1>
   </body>
 </html>
-{% endcapture %}
-<pre data-line="6"><code class="language-html">
-{{- html-demo-2 | escape -}}
-</code></pre>
+```
 
 # Paragraphs
 
-One of the most commonly used elements, the paragraph element - <code class="language-html"><p></code>. 
+One of the most commonly used elements, the paragraph element: `<p>`. 
 
 It's very similiar to the elements we've already used before. You just provide the opening and closing tag and the content between the tags.
 
 So let's add a paragraph, just beneath the heading and some [random text](https://www.lipsum.com/).
 
-{%- capture html-demo-3 -%}
+```html
 <html>
   <head>
     <title>My Page Title!</title>
@@ -97,12 +90,9 @@ So let's add a paragraph, just beneath the heading and some [random text](https:
        ridiculus mus.</p>
   </body>
 </html>
-{% endcapture %}
-<pre data-line="7-10"><code class="language-html">
-{{- html-demo-3 | escape -}}
-</code></pre>
+```
 
-Additionally, you might want to split the paragraph into multiple lines, so you can use the line break element - <code class="language-html">&lt;br></code>. This one is a little different, it doesn't need a closing tag, because it doesn't hold any content by itself, it's just a line break.
+Additionally, you might want to split the paragraph into multiple lines, so you can use the line break element - <code class="language-html"><br></code>. This one is a little different, it doesn't need a closing tag, because it doesn't hold any content by itself, it's just a line break.
 
 So let's add it to see what it does.
 
@@ -123,11 +113,11 @@ So let's add it to see what it does.
 
 If you'd like to split the paragraph in multiple parts, i'd suggest using separate paragraph elements, to keep the syntax clean and not stack these breaks for adding whitespace.
 
-There's another element, that is quite similiar, the horizontal line element - <code class="language-html"><hr></code>. 
+There's another element, that is quite similiar, the horizontal line element: `<hr>`. 
 
 It also doesn't need a closing tag, because it's just a line. Let's add it to separate the heading and paragraph.
 
-{%- capture html-demo-3 -%}
+```html
 <html>
   <head>
     <title>My Page Title!</title>
@@ -141,18 +131,10 @@ It also doesn't need a closing tag, because it's just a line. Let's add it to se
        ridiculus mus.</p>
   </body>
 </html>
-{% endcapture %}
-<pre data-line="7"><code class="language-html">
-{{- html-demo-3 | escape -}}
-</code></pre>
+```
 
 # Final Render
 
-<p class="codepen" data-height="285" data-theme-id="dark" data-default-tab="result" data-user="itsprogramming" data-slug-hash="dyoNybB" data-preview="true" style="height: 285px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Simple HTML Example">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/dyoNybB">
-  Simple HTML Example</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/me3nd6vh/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 Great! We'll take a look at how to establish layout in the next post.
