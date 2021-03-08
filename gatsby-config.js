@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/gatsby-gp",
   siteMetadata: {
     title: "itsprogramming",
   },
