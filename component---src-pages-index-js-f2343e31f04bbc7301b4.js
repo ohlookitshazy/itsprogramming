@@ -1,0 +1,2 @@
+(self.webpackChunkitsprogramming=self.webpackChunkitsprogramming||[]).push([[678],{7704:function(e,t,a){"use strict";a.r(t);var n=a(7294),r=a(9818);t.default=function(){return n.createElement("div",{className:"p-grid"},n.createElement("div",{className:"p-col-2"},n.createElement(r.k,null)))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-f2343e31f04bbc7301b4.js.map
