@@ -60,7 +60,7 @@ The beginning is basic, just as before we declare the HTML5 document type on lin
 
 Now let's look into all the stuff they have in their `<head>` section.
 
-{%- capture html-demo -%}
+```html
 <head>
   <meta charset="utf-8">
   <title></title>
@@ -81,17 +81,15 @@ Now let's look into all the stuff they have in their `<head>` section.
 
   <meta name="theme-color" content="#fafafa">
 </head>
-{% endcapture %}
+```
 
-<pre data-line=""><code class="language-html">
-{{- html-demo | escape -}}
-</code></pre>
+Starting the the meta tag:
 
 ```html
 <meta charset="utf-8">
 ```
 
-The charset allows you to have special characters on your webpage and have them rendered properly.
+The charset attribute allows you to have special characters (like "ā") on your webpage and have them rendered properly.
 
 ```html
 <title></title>
