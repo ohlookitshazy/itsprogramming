@@ -9,7 +9,7 @@ index: 2
 
 The very first thing you should learn to do with the dev tools, is inspecting HTML to understand why it does (or doesn't) work.
 
-<img src="/assets/img/ChromeDevToolsDefaultLayout.png">
+<img src="./ChromeDevToolsDefaultLayout.png">
 
 In the screenshot we viewed previously, notice the very first button in the upper left corner, the square with the cursor in it. When you click it (or you can use **CTRL+SHIFT+C** too) your cursor becomes an inspector tool. 
 
