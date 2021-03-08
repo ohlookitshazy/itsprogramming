@@ -19,13 +19,13 @@ I love them even more, since **they decided to provide their courses for free du
 
 # Udacity
 
-<a href="https://www.udacity.com/" target="_blank"><img src="https://miro.medium.com/max/1356/1*hWHfNVYS4B1dgB75bhUAXQ.png"></a>
+<a href="https://www.udacity.com/" target="_blank"><img style="width: 100%" src="https://miro.medium.com/max/1356/1*hWHfNVYS4B1dgB75bhUAXQ.png"></a>
 
 I've seen courses having deals on the internet since like forever for them. They also **offer a 30 day trial due to Covid-19** and host massive amounts of courses. Be careful though, not all courses, by definition, are good. With **that amount** though, I believe they must have good stuff in there as well. 
 
 # Treehouse
 
-<a href="https://teamtreehouse.com" target="_blank"><img src="https://static.teamtreehouse.com/assets/marketing/opengraph/logo_facebook-5a7642409483233360d948ca4dd6840de0a6083475af4b047d452b77b00ca68a.png"></a>
+<a href="https://teamtreehouse.com" target="_blank"><img style="width: 100%" src="https://static.teamtreehouse.com/assets/marketing/opengraph/logo_facebook-5a7642409483233360d948ca4dd6840de0a6083475af4b047d452b77b00ca68a.png"></a>
 
 I've heard good things about Treehouse, they have notable partnerships with tech giants like Google, IBM, Amazon and Microsoft and they also have a 7 day free trial for you to try out! I haven't used it personally, but thought that they are worth a mention in this list.
 

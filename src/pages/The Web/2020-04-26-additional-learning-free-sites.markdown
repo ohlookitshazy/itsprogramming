@@ -13,7 +13,7 @@ I am fully aware that I am not the best teacher. Or the worst. Definitely not th
 
 # FreeCodeCamp.org
 
-<a href="https://www.freecodecamp.org/" target="_blank"><img src="https://d33wubrfki0l68.cloudfront.net/d887597b38007c892922990e1f65015054997842/5737e/img/screen-shot-3.png"></a>
+<a href="https://www.freecodecamp.org/" target="_blank"><img style="width: 100%" src="https://d33wubrfki0l68.cloudfront.net/d887597b38007c892922990e1f65015054997842/5737e/img/screen-shot-3.png"></a>
 
 Starting this list off with one of my favorites, the good folks at FreeCodeCamp have written content spanning over 2k hours, of learning content. Let that sink in. I have spent a good amount of hours there, I still do. Keep in mind, that you are not a good developer if you hold all of the code in your head. You're a good developer, if you have an idea on how to approach a problem and you feel confident enough to execute it. So practicing your basics for as long as you want is nothing to be ashamed of or to be disregarded as unimportant, for that matter.
 
