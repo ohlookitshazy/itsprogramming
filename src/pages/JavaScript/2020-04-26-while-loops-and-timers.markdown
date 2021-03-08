@@ -82,12 +82,7 @@ Never deploy code anywhere on fridays or before holidays. Ever.
 
 So here is the final code:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="OJymObg" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JavaScript While Loops">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/OJymObg">
-  JavaScript While Loops</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="330" src="//jsfiddle.net/itshazy/stu2w3c9/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 Cool! We have random numbers coming in every time you refresh the page! They look kindof weird though, how are you supposed to work with this?
 
@@ -154,13 +149,13 @@ setInterval(function(){
 }, 1000);
 ```
 
-So what's happening here:
+So what's happening here, we took the same two functions from before:
+* `outputToDiv()` just targets the element by id and changes its content to whatever it receives.
+* `generateRandomNumbers()` creates an array and a counter, then runs a loop of generating a number from 0-9 and returns the resulting collection.
 
-* We took the same two functions from before
-  * "outputToDiv()" just targets the element by id and changes its content to whatever it receives.
-  * "generateRandomNumbers()" creates an array and a counter, then runs a loop of generating a number from 0-9 and returns the resulting collection.
-* Then created a variable, which holds a weird looking function definition that calls the "outputToDiv()" function, within that call it also calls the "generateRandomNumbers()" function to just create some content to add to the element. 
-* Then a number "1000", this is an argument for the ".setInterval()" function, which defines how frequently to execute the weird looking function definition in milliseconds. In our case - every second.
+Then created a variable, which holds a weird looking function definition that calls the `outputToDiv()` function, within that call it also calls the `generateRandomNumbers()` function to just create some content to add to the element. 
+
+Then a number "1000", this is an argument for the `setInterval()` function, which defines how frequently to execute the weird looking function definition in milliseconds. In our case - every second.
 
 Okay, this might be a lot, but not too much, we're just connecting function calls and passing arguments through them, even timing them.
 

@@ -71,12 +71,7 @@ Now let's add a few elements to the page, to see the selection happen:
 
 Here is a full example:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="itsprogramming" data-slug-hash="MWammwp" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JavaScript Basics 3">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/MWammwp">
-  JavaScript Basics 3</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/p4oh87fe/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 Very basic. You store a string of text in a mySampleText variable, then store all elements with a class "myClass" into a myElements variable.
 
@@ -96,12 +91,7 @@ var amountOfElements = myElements.length;
 
 This, as you might imagine, will store the number of items in the collection in a separate variable. We are accessing a built-in property of JavaScript collections. We can output this number as you'd expect:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="itsprogramming" data-slug-hash="eYpWWBe" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JavaScript Basics 4">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/eYpWWBe">
-  JavaScript Basics 4</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/okduacr9/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 You can also get a length of a string, since it's just a "string of characters" by using ".length".
 
@@ -165,13 +155,6 @@ As you see the text is changed for the first item to "New Text!" because **myEle
 
 Now you should see the "Other Text!" be applied instead, because element count now is indeed 5. Also notice, that to compare a value against a value, we used "==" and that's because a single "=" sign is reserved for storing values into variables. Read more about comparison operators in the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators).
 
-
-<p class="codepen" data-height="322" data-theme-id="dark" data-default-tab="js,result" data-user="itsprogramming" data-slug-hash="BaoRRGQ" style="height: 322px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JavaScript Basics 6">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/BaoRRGQ">
-  JavaScript Basics 6</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/5e2kpw61/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 Cool! So we went through each thing we did in the previous post into more detail, by now you should be able to read the code in it much easier.

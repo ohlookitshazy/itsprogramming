@@ -13,12 +13,7 @@ JS stands for JavaScript. It is a programming language that drives interactivity
 
 Let's play around with it in a fresh Codepen. Let's start by changing some content by writing some JavaScript!
 
-<p class="codepen" data-height="271" data-theme-id="dark" data-default-tab="html,result" data-user="itsprogramming" data-slug-hash="bGVWNoP" style="height: 271px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JavaScript Basics">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/bGVWNoP">
-  JavaScript Basics</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/ge827tmr/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 As you see, no CSS is used here, I just added an example paragraph:
 
@@ -143,12 +138,7 @@ for (var i = 0; i < myElements.length; i++) {
 
 The Result:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="itsprogramming" data-slug-hash="rNOmaqm" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JavaScript Basics 2">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/rNOmaqm">
-  JavaScript Basics 2</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/5kvar0qn/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 
 Now, we covered a lot of new ideas in this post. Let them sink in, it will take time and it's perfectly normal to have a blank stare currently. The more practice you have, the faster you will associate how each action is represented in code and it will come to you naturally. 

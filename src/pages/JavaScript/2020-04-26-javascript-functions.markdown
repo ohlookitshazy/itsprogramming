@@ -69,12 +69,7 @@ addTwoNumbers(5, 15);
 
 Now your code should look like this:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="itsprogramming" data-slug-hash="MWamozd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JavaScript Functions">
-  <span>See the Pen <a href="https://codepen.io/itsprogramming/pen/MWamozd">
-  JavaScript Functions</a> by itsprogramming (<a href="https://codepen.io/itsprogramming">@itsprogramming</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/itshazy/t6vqemyx/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 So now you have effectively made a reusable function, which adds the two numbers it receives and changes the content of a paragraph element to show the resulting value.
 
