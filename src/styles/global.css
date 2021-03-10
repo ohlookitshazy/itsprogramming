@@ -90,7 +90,7 @@ a {
 
 .side-nav-close-button { 
     background: -webkit-linear-gradient(45deg, #8093f1, #b388eb) !important;
-    position: fixed;
+    position: fixed !important;
     right: 3%;
     top: 3%;
 }
