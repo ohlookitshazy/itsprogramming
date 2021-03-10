@@ -1,12 +1,12 @@
 import * as React from "react"
-import { SideNav } from '../components/side-nav';
+import { SideNav } from '../../components/side-nav';
 import { graphql } from "gatsby"
 import { Card } from 'primereact/card';
 import 'primeflex/primeflex.css';
 export const query = graphql`
   query {
     allMarkdownRemark(
-      filter: {frontmatter: {categories: {eq: "Hosting & Deployment"}}}
+      filter: {frontmatter: {categories: {eq: "jQuery"}}}
       sort: {fields: frontmatter___index}
     ) {
       edges {
@@ -29,7 +29,7 @@ export const query = graphql`
 `
 
 // markup
-const HostingDeploymentPage = ({ data }) => {
+const JQueryPage = ({ data }) => {
   return (
     <div className="p-grid">
 
@@ -37,7 +37,7 @@ const HostingDeploymentPage = ({ data }) => {
         <SideNav />
       </div>
       <div className="p-col-6 p-offset-1">
-        <h1 className="post-full-card-title">Hosting & Deployment</h1>
+        <h1 className="post-full-card-title">jQuery</h1>
 
         {data.allMarkdownRemark.edges.map((post, index) => {
           let formattedDate = post.node.frontmatter.date.substring(0, 10).replace(/\-/g, ".");
@@ -60,4 +60,4 @@ const HostingDeploymentPage = ({ data }) => {
   )
 }
 
-export default HostingDeploymentPage
+export default JQueryPage

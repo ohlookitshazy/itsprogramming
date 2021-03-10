@@ -1,34 +1,35 @@
 import * as React from "react"
-import { SideNav } from '../components/side-nav';
+import { SideNav } from '../../components/side-nav';
 import { graphql } from "gatsby"
 import { Card } from 'primereact/card';
 import 'primeflex/primeflex.css';
 export const query = graphql`
-  query {
-    allMarkdownRemark(
-      filter: {frontmatter: {categories: {eq: "The Basics"}}}
-      sort: {fields: frontmatter___index}
-    ) {
-      edges {
-        node {
-          id
-          fields {
-            slug
-          }
-          timeToRead
-          frontmatter {
-            title
-            date
-            tags
-          }
-          excerpt
+query {
+  allMarkdownRemark(
+    filter: {frontmatter: {categories: {eq: "Dev Tools"}}}
+    sort: {fields: frontmatter___index}
+  ) {
+    edges {
+      node {
+        id
+        fields {
+          slug
         }
+        timeToRead
+        frontmatter {
+          title
+          date
+          tags
+        }
+        excerpt
       }
     }
   }
+}
 `
 
-const TheBasicsPage = ({ data }) => {
+// markup
+const DevToolsPage = ({ data }) => {
   return (
     <div className="p-grid">
 
@@ -36,7 +37,7 @@ const TheBasicsPage = ({ data }) => {
         <SideNav />
       </div>
       <div className="p-col-6 p-offset-1">
-        <h1 className="post-full-card-title">The Basics</h1>
+        <h1 className="post-full-card-title">Dev Tools</h1>
 
         {data.allMarkdownRemark.edges.map((post, index) => {
           let formattedDate = post.node.frontmatter.date.substring(0, 10).replace(/\-/g, ".");
@@ -59,4 +60,4 @@ const TheBasicsPage = ({ data }) => {
   )
 }
 
-export default TheBasicsPage
+export default DevToolsPage

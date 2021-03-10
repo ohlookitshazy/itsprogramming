@@ -9,18 +9,18 @@ import { Sidebar } from 'primereact/sidebar';
 
 let items = [
   { label: 'Introduction', url: '/2020-02-18-itsprogramming-intro' },
-  { label: '1. The Basics', url: '/the-basics' },
-  { label: '2. HTML', url: '/html-category' },
-  { label: '3. CSS', url: '/css-category' },
-  { label: '4. JavaScript', url: '/javascript-category' },
-  { label: '5. The Web', url: '/the-web' },
-  { label: '6. Dev Tools', url: '/dev-tools' },
-  { label: '7. Bootstrap', url: '/bootstrap-category' },
-  { label: '8. jQuery', url: '/jquery' },
-  { label: '9. Advanced HTML', url: '/advanced-html' },
-  { label: '10. Advanced CSS', url: '/advanced-css' },
-  { label: '11. Advanced JavaScript', url: '/advanced-javascript' },
-  { label: '12. Hosting & Deployment', url: '/hosting-deployment' }
+  { label: '1. The Basics', url: '/category/the-basics' },
+  { label: '2. HTML', url: '/category/html' },
+  { label: '3. CSS', url: '/category/css' },
+  { label: '4. JavaScript', url: '/category/javascript' },
+  { label: '5. The Web', url: '/category/the-web' },
+  { label: '6. Dev Tools', url: '/category/dev-tools' },
+  { label: '7. Bootstrap', url: '/category/bootstrap' },
+  { label: '8. jQuery', url: '/category/jquery' },
+  { label: '9. Advanced HTML', url: '/category/advanced-html' },
+  { label: '10. Advanced CSS', url: '/category/advanced-css' },
+  { label: '11. Advanced JavaScript', url: '/category/advanced-javascript' },
+  { label: '12. Hosting & Deployment', url: '/category/hosting-deployment' }
 ];
 
 // markup
