@@ -18,10 +18,11 @@ a {
 
 .p-tieredmenu {
     width: 100% !important;
+    border: 0 !important;
 }
 
-.side-nav {
-    border: 0 !important;
+.p-sidebar {
+	padding: 0 !important;
 }
 
 /* Custom CSS */
@@ -76,12 +77,6 @@ a {
     margin-bottom: 30px;
 }
 
-.side-nav-col {
-    background: #1e1e1e;
-    position: fixed;
-    height: 100%;
-}
-
 .side-nav-heading {
     text-align: center;
     color: transparent;
@@ -91,4 +86,19 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
     font-size: 1.7vw;
+}
+
+.side-nav-close-button { 
+    background: -webkit-linear-gradient(45deg, #8093f1, #b388eb) !important;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 992px){
+    .p-sidebar .p-sidebar-close, 
+    .p-sidebar .p-sidebar-icon, 
+    .side-nav-close-button,
+    .p-sidebar-mask.p-component-overlay {
+        display: none !important;
+    }
 }
