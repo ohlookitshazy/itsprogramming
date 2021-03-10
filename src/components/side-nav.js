@@ -8,7 +8,7 @@ import { TieredMenu } from 'primereact/tieredmenu';
 import { Sidebar } from 'primereact/sidebar';
 
 let items = [
-  { label: 'Introduction', url: '/2020-02-18-itsprogramming-intro' },
+  { label: 'Introduction', url: '/itsprogramming-intro' },
   { label: '1. The Basics', url: '/category/the-basics' },
   { label: '2. HTML', url: '/category/html' },
   { label: '3. CSS', url: '/category/css' },
