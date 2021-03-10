@@ -26,28 +26,25 @@ let items = [
 // markup
 export function SideNav() {
   const menu = useRef(null);
-  const [navVisible, setNavVisible] = useState(true);
+  const [navVisible, setNavVisible] = useState(false);
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
-  const [smallScreen, setSmallScreen] = useState(false);
 
 useEffect(() => {
-  if(window.screen.width < 992){
-    setSmallScreen(true);
-    setNavVisible(false);
+  if(window.screen.width > 992 && navVisible == false){
+    setNavVisible(true);
   }
-
 });
 
   return (
     <React.Fragment>
-      <Sidebar dismissable={false} showCloseIcon={false} visible={navVisible} onHide={() => setNavVisible(false)}>
+      <Sidebar className="main-side-nav" dismissable={false} showCloseIcon={false} visible={true} modal={false} onHide={() => setNavVisible(false)}>
         <a href="/"><h1 className="side-nav-heading">ItsProgramming</h1></a>
         <TieredMenu className="side-nav" model={items} />
       </Sidebar>
 
       <Button className="side-nav-close-button" icon="pi pi-bars" onClick={(e) => setResponsiveNavVisible(true)} />
 
-      <Sidebar dismissable={true} visible={responsiveNavVisible} onHide={() => setResponsiveNavVisible(false)}>
+      <Sidebar dismissable={true} showCloseIcon={false} visible={responsiveNavVisible} onHide={() => setResponsiveNavVisible(false)}>
         <a href="/"><h1 className="side-nav-heading">ItsProgramming</h1></a>
         <TieredMenu className="side-nav" model={items} />
       </Sidebar>

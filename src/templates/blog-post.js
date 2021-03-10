@@ -3,14 +3,14 @@ import { SideNav } from '../components/side-nav';
 import { graphql } from "gatsby"
 import { Card } from 'primereact/card';
 import 'primeflex/primeflex.css';
+
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
   return (
     <div className="p-grid">
-
       <SideNav />
 
-      <div className="p-col-8 p-offset-2">
+      <div className="p-xl-12 p-lg-12 p-sm-12">
       <h1 className="post-full-card-title">{post.frontmatter.title}</h1>
 
             <Card className="post-full-card">
