@@ -90,15 +90,15 @@ a {
 
 .side-nav-close-button { 
     background: -webkit-linear-gradient(45deg, #8093f1, #b388eb) !important;
+    position: fixed;
+    right: 3%;
+    top: 3%;
 }
 
 /* Responsive */
 
 @media screen and (min-width: 992px){
-    .p-sidebar .p-sidebar-close, 
-    .p-sidebar .p-sidebar-icon, 
-    .side-nav-close-button,
-    .p-sidebar-mask.p-component-overlay {
+    .side-nav-close-button {
         display: none !important;
     }
 }

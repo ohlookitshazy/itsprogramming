@@ -10,9 +10,9 @@ import { Sidebar } from 'primereact/sidebar';
 let items = [
   { label: 'Introduction', url: '/2020-02-18-itsprogramming-intro' },
   { label: '1. The Basics', url: '/the-basics' },
-  { label: '2. HTML', url: '/html' },
+  { label: '2. HTML', url: '/html-category' },
   { label: '3. CSS', url: '/css-category' },
-  { label: '4. JavaScript', url: '/javascript' },
+  { label: '4. JavaScript', url: '/javascript-category' },
   { label: '5. The Web', url: '/the-web' },
   { label: '6. Dev Tools', url: '/dev-tools' },
   { label: '7. Bootstrap', url: '/bootstrap-category' },
@@ -26,26 +26,28 @@ let items = [
 // markup
 export function SideNav() {
   const menu = useRef(null);
-  const [visible, setVisible] = useState(false);
-  const [initialDraw, setInitialDraw] = useState(true);
+  const [navVisible, setNavVisible] = useState(true);
+  const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
   const [smallScreen, setSmallScreen] = useState(false);
 
 useEffect(() => {
   if(window.screen.width < 992){
     setSmallScreen(true);
+    setNavVisible(false);
   }
 
-  if(window.screen.width > 992 && initialDraw == true){
-    setVisible(true);
-    setInitialDraw(false);
-  }
 });
 
   return (
     <React.Fragment>
-      <Button className="side-nav-close-button" icon="pi pi-bars" onClick={(e) => setVisible(true)} />
+      <Sidebar dismissable={false} showCloseIcon={false} visible={navVisible} onHide={() => setNavVisible(false)}>
+        <a href="/"><h1 className="side-nav-heading">ItsProgramming</h1></a>
+        <TieredMenu className="side-nav" model={items} />
+      </Sidebar>
 
-      <Sidebar dismissable={smallScreen} visible={visible} onHide={() => setVisible(false)}>
+      <Button className="side-nav-close-button" icon="pi pi-bars" onClick={(e) => setResponsiveNavVisible(true)} />
+
+      <Sidebar dismissable={true} visible={responsiveNavVisible} onHide={() => setResponsiveNavVisible(false)}>
         <a href="/"><h1 className="side-nav-heading">ItsProgramming</h1></a>
         <TieredMenu className="side-nav" model={items} />
       </Sidebar>
