@@ -40,6 +40,7 @@ useEffect(() => {
       <Sidebar className="main-side-nav" dismissable={false} showCloseIcon={false} visible={true} modal={false} onHide={() => setNavVisible(false)}>
         <a href="/"><h1 className="side-nav-heading">ItsProgramming</h1></a>
         <TieredMenu className="side-nav" model={items} />
+        <h4 className="side-nav-footer">2018 - 2021 by <a href="https://itshazy.com" target="_blank">Hazy</a></h4>
       </Sidebar>
 
       <Button className="side-nav-close-button" icon="pi pi-bars" onClick={(e) => setResponsiveNavVisible(true)} />
@@ -47,6 +48,7 @@ useEffect(() => {
       <Sidebar dismissable={true} showCloseIcon={false} visible={responsiveNavVisible} onHide={() => setResponsiveNavVisible(false)}>
         <a href="/"><h1 className="side-nav-heading">ItsProgramming</h1></a>
         <TieredMenu className="side-nav" model={items} />
+        <h4 className="side-nav-footer">2018 - 2021 by <a href="https://itshazy.com" target="_blank">Hazy</a></h4>
       </Sidebar>
     </React.Fragment>
   )

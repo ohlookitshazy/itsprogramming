@@ -29,6 +29,13 @@ a {
     width: 17rem !important;
 }
 
+.p-sidebar-content {
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between;
+}
+
 /* Custom CSS */
 
 .post-card {
@@ -101,6 +108,11 @@ a {
     position: fixed !important;
     right: 3%;
     top: 3%;
+}
+
+.side-nav-footer {
+    text-align: center;
+    font-weight: 200;
 }
 
 /* Responsive */
