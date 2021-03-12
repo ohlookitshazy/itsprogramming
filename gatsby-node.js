@@ -77,7 +77,7 @@ exports.createPages = async ({ graphql, actions }) => {
       slug: "jquery"
     },
     {
-      name: "Advanced HMTL",
+      name: "Advanced HTML",
       slug: "advanced-html"
     },
     {
