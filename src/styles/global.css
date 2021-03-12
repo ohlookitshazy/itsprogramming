@@ -61,7 +61,8 @@ a {
     padding: 0 30%;
 }
 
-.post-full-card-title {
+.post-full-card-title,
+.index-title {
     margin-top: 14px;
     font-size: 49px;
     text-align: center;
@@ -71,6 +72,40 @@ a {
     background-clip: border-box;
     background-clip: text;
     -webkit-background-clip: text;
+}
+
+.index-title {
+    width: 100%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 24%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 500%;
+}
+
+.index-title-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-paragraph {
+    width: 32%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40%;
+    left: 0;
+    right: 0;
+    text-align: left;
+    font-size: 100%;
+    font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    color: #fbfbfb;
 }
 
 .post-full-card .p-card-content {
@@ -115,6 +150,21 @@ a {
     font-weight: 200;
 }
 
+.index-post-wrapper {
+    padding: 0 30%;
+    margin-top: 34%;
+}
+
+.index-post-heading {
+    text-align: center;
+    color: transparent;
+    font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    background: -webkit-linear-gradient(45deg,#fa5cdd ,#fae07a );
+    background-clip: border-box;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 200%;
+}
 /* Responsive */
 
 @media screen and (min-width: 1200px){
