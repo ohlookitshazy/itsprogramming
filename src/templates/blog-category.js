@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 import { Card } from 'primereact/card';
 import 'primeflex/primeflex.css';
 
-
 export default function CategoryPage({ pageContext, data }) {
   return (
     <div className="p-grid">
@@ -37,9 +36,9 @@ export default function CategoryPage({ pageContext, data }) {
 }
 
 export const query = graphql`
-  query {
+query($name: String!) {
     allMarkdownRemark(
-      filter: {frontmatter: {categories: {eq: "The Basics"}}}
+      filter: {frontmatter: {categories: {eq: $name}}}
       sort: {fields: frontmatter___index}
     ) {
       edges {
