@@ -5,7 +5,7 @@ import { Card } from 'primereact/card';
 import 'primeflex/primeflex.css';
 
 export default function BlogPost({ data }) {
-  const post = data.markdownRemark
+  const post = data.markdownRemark;
   return (
     <div className="p-grid">
       <SideNav />

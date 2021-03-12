@@ -35,6 +35,10 @@ a {
     margin: 10px 0;
 }
 
+.category-post-wrapper {
+    padding: 0 30% !important;
+}
+
 .p-card .p-card-title {
     color: transparent;
     background: -webkit-linear-gradient(70deg,#fa5cdd ,#fae07a );
@@ -89,7 +93,7 @@ a {
     background-clip: border-box;
     background-clip: text;
     -webkit-background-clip: text;
-    font-size: 3vw;
+    font-size: 200%;
 }
 
 .side-nav-close-button { 
@@ -102,9 +106,9 @@ a {
 /* Responsive */
 
 @media screen and (min-width: 1200px){
-    .side-nav-heading {
+    /* .side-nav-heading {
         font-size: 36px !important;
-    }
+    } */
 
     .post-full-card {
         padding: 0 36%;
@@ -118,7 +122,10 @@ a {
 @media screen and (max-width: 1200px){
     .post-full-card-title {
         text-align: left;
-        padding-left: 20%;
+    }
+
+    .category-post-wrapper {
+        padding: 0 30% !important;
     }
 }
 
@@ -139,5 +146,10 @@ a {
 
     .post-full-card-title {
         margin-top: 70px;
+        text-align: center;
+    }
+
+    .category-post-wrapper {
+        padding: 0 10% !important;
     }
 }

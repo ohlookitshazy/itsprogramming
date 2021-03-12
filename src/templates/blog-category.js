@@ -8,10 +8,9 @@ export default function CategoryPage({ pageContext, data }) {
   return (
     <div className="p-grid">
 
-      <div className="p-col-2">
-        <SideNav />
-      </div>
-      <div className="p-col-6 p-offset-1">
+      <SideNav />
+
+        <div className="p-xl-12 p-lg-12 p-sm-12 category-post-wrapper">
         <h1 className="post-full-card-title">{pageContext.name}</h1>
 
         {data.allMarkdownRemark.edges.map((post, index) => {
