@@ -4,7 +4,7 @@ title:  "Additional Learning: Free Sites"
 date:   2020-04-26
 categories: [The Web]
 tags: [the web, programming, basics, javascript]
-index: 2
+index: 1
 ---
 
 Cool! By now you should be ready to read code others have written! That also means that I am going to use this moment and share the best sites (in my opinion) that you can learn programming for free with!

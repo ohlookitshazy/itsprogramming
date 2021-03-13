@@ -4,7 +4,7 @@ title:  "Website Types"
 date:   2020-12-03
 categories: [The Web]
 tags: [the web, programming, basics]
-index: 6
+index: 5
 ---
 
 Obviously given the massive strides in how technology has evolved, there are multiple types of websites out there. So let's overview the most used types and what they're usually used for.

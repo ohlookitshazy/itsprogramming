@@ -4,7 +4,7 @@ title:  "Code Commenting"
 date:   2020-04-26
 categories: [The Web]
 tags: [the web, programming, basics, javascript]
-index: 1
+index: 0
 ---
 
 We have so far looked at 3 different languages that make up the web, so we'd probably want to share our code or atleast leave some small notes about what the code does or is meant to do, or whatever else that helps you navigate that small digital jungle that you've created for yourself.

@@ -4,7 +4,7 @@ title:  "Additional Learning: Free E-Books"
 date:   2020-04-30
 categories: [The Web]
 tags: [the web, programming, basics, javascript]
-index: 4
+index: 3
 ---
 
 Here's a collection of great e-books regarding programming that are not only for beginners, but also cover more advanced topics too:

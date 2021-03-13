@@ -4,7 +4,7 @@ title:  "Additional Learning: Paid Sites"
 date:   2020-04-26
 categories: [The Web]
 tags: [the web, programming, basics, javascript]
-index: 3
+index: 2
 ---
 
 Here's a list of my favorite sites that you do have to pay for, but the value returned is uncomparable. You get slide decks, transcripts, project files and tests on these sites. In my opinion, if you plan on subscribing to one, try the trial/free tier first. Then go all in and I assure you won't regret it!

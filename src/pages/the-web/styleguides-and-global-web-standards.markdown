@@ -4,7 +4,7 @@ title:  "Styleguides and Global Web Standards"
 date:   2020-04-30
 categories: [The Web]
 tags: [the web, programming, basics, javascript]
-index: 5
+index: 4
 ---
 
 A very underrated topic, that I literally haven't seen being mentioned in any beginners course. So let me be the one to mention it.
