@@ -4,7 +4,7 @@ title:  "Creating and Removing Elements"
 date:   2020-05-03
 categories: [jQuery]
 tags: [programming, jquery, html, css, javascript]
-index: 3
+index: 2
 ---
 
 Manipulating elements is cool and all, but what if we'd like to create some? Or perhaps we have dug ourselves in too deep into the digital jungle or maze and we'd like to remove some dynamically? Let's take a look at how it's done both in vanilla JavaScript and jQuery.

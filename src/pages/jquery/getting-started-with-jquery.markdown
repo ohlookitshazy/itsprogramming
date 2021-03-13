@@ -4,7 +4,7 @@ title:  "Getting Started with jQuery"
 date:   2020-05-03
 categories: [jQuery]
 tags: [programming, jquery, html, css, javascript]
-index: 1
+index: 0
 ---
 
 So jQuery seems like a very useful framework, let's try it out! You probably noticed the word "query" in "jQuery", it means "to ask for something". So in this case you could associate this framework allowing to ask you for stuff via JavaScript more easily. When, for example you'd like something out of a database, you would "query" for it, just to give a little more context.

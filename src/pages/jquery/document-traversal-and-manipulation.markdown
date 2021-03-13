@@ -4,7 +4,7 @@ title:  "Document Traversal and Manipulation"
 date:   2020-05-03
 categories: [jQuery]
 tags: [programming, jquery, html, css, javascript]
-index: 2
+index: 1
 ---
 
 The title sounds like we're some systems scanning and manipulating documents. Which we actually **are**. So let's atleast learn to do it professionally, ok?
