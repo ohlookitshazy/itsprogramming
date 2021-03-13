@@ -4,7 +4,7 @@ title:  "HTML Best Practices"
 date:   2020-12-04
 categories: [Advanced HTML]
 tags: [the web, programming, basics, html]
-index: 1
+index: 0
 ---
 
 By now it should be clear as to what HTMLs main purpose is. It's also important to reach out and see what best practices people implement and what the latest and greatest approaches are.

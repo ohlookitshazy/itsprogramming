@@ -4,7 +4,7 @@ title:  "Metadata"
 date:   2020-12-10
 categories: [Advanced HTML]
 tags: [the web, programming, basics, html]
-index: 4
+index: 3
 ---
 
 The project layout should now start to make sense. We have [a bunch of files](https://github.com/h5bp/html5-boilerplate/blob/v8.0.0/dist/doc/misc.md), which I call "metadata" in the main folder. They usually describe stuff for servers or other software that developers work with. Let's go over them.

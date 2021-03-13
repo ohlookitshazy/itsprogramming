@@ -4,7 +4,7 @@ title:  "Favicon"
 date:   2020-12-10
 categories: [Advanced HTML]
 tags: [the web, programming, basics, html]
-index: 3
+index: 2
 ---
 
 The project layout should now start to make sense. We have a bunch of files in the main folder left, so let's go over them. Starting with the favicon.

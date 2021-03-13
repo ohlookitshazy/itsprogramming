@@ -4,7 +4,7 @@ title:  "Folder Structure"
 date:   2020-12-10
 categories: [Advanced HTML]
 tags: [the web, programming, basics, html]
-index: 2
+index: 1
 ---
 
 Previously we took a look at the index.html file, now let's look at what else is in the .zip from the HTML5 Boilerplate project.
