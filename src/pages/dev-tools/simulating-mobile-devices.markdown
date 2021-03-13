@@ -4,7 +4,7 @@ title:  "Simulating Mobile Devices"
 date:   2020-04-30
 categories: [Dev Tools]
 tags: [dev tools, the-web, programming, basics]
-index: 3
+index: 2
 ---
 
 You probably noticed the button next to the "inspector" mode at the top of the sidebar. Quite simply, it allows you to simulate how your page will look and act on a mobile device.

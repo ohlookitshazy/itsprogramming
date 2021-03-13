@@ -4,7 +4,7 @@ title:  "Getting Started with Chrome Dev Tools"
 date:   2020-04-30
 categories: [Dev Tools]
 tags: [dev tools, the-web, programming, basics]
-index: 1
+index: 0
 ---
 
 Cool! So far we've looked at each of the most used languages on the web, how to write code, how to write good code and most importantly - code that others can read. So in a sense you could say that you're ready to enter the digital jungles others have created out there in the world.

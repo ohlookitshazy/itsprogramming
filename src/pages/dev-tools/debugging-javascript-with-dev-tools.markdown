@@ -4,7 +4,7 @@ title:  "Debugging JavaScript with Dev Tools"
 date:   2020-04-30
 categories: [Dev Tools]
 tags: [dev tools, the-web, programming, basics]
-index: 5
+index: 4
 ---
 
 So far the browser dev tools seem to have tons of cool stuff that can be done, it really changes the way you view web pages, since you can now see and interpret the "behind the scenes" stuff. The real power actually is revealed when you are working with JavaScript.

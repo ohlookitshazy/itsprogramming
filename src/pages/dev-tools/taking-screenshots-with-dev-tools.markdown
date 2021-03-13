@@ -4,7 +4,7 @@ title:  "Taking Screenshots with Dev Tools"
 date:   2020-04-30
 categories: [Dev Tools]
 tags: [dev tools, the-web, programming, basics]
-index: 4
+index: 3
 ---
 
 A very convenient feature, that I actually found out about only about a year ago, is the ability to take screenshots right there in the browser with dev tools!

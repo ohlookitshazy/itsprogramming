@@ -4,7 +4,7 @@ title:  "Inspecting HTML and CSS"
 date:   2020-04-30
 categories: [Dev Tools]
 tags: [dev tools, the-web, programming, basics]
-index: 2
+index: 1
 ---
 
 The very first thing you should learn to do with the dev tools, is inspecting HTML to understand why it does (or doesn't) work.
