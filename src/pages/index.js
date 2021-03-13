@@ -16,7 +16,8 @@ const IndexPage = ({ data }) => {
         <h1 className="index-title">Welcome!</h1>
         <p className="index-paragraph">This is a blog.<br />
           It's an attempt to provide a concise way to make programming more approachable.<br />
-          No previous programming experience needed.</p>
+          No previous programming experience needed.<br/><br/>
+          Currently at <b>{data.allMarkdownRemark.totalCount}</b> posts! 🙌</p>
         <div className="index-post-wrapper">
           <h2 className="index-post-heading">10 latest posts:</h2>
           {data.allMarkdownRemark.edges.map((post, index) => {
@@ -58,6 +59,7 @@ export const query = graphql`
           excerpt
         }
       }
+      totalCount
     }
   }
 `
