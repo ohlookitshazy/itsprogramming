@@ -4,7 +4,7 @@ title:  "Animate.css"
 date:   2020-05-03
 categories: [Advanced CSS]
 tags: [programming, html, css]
-index: 3
+index: 2
 ---
 
 What if I told you that there exists a CSS animation framework as well? One of my favorites is called "Animate.css" and it is found [here](https://daneden.github.io/animate.css/). Though I don't use it a lot, when I actually used it for my personal projects, it was very easy.

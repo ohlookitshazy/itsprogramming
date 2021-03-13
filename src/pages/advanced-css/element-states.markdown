@@ -4,7 +4,7 @@ title:  "Element States"
 date:   2020-05-03
 categories: [Advanced CSS]
 tags: [programming, html, css]
-index: 1
+index: 0
 ---
 
 We've covered a lot of the basics for a lot of stuff so far. Let's take a more detailed look at how we can style HTML elements in different states. Like change color, when the user hovers over a link.

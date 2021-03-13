@@ -4,7 +4,7 @@ title:  "Animations"
 date:   2020-05-03
 categories: [Advanced CSS]
 tags: [programming, html, css]
-index: 2
+index: 1
 ---
 
 We've kind of started animating stuff, but those aren't quite animations. To really get serious about animating elements, transitions wont cut it. So next up let's look at animating stuff with CSS!
