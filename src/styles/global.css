@@ -143,6 +143,10 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
     font-size: 200%;
+    height: 130px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .side-nav-close-button { 
