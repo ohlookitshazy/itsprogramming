@@ -4,7 +4,7 @@ title:  "Object Inheritance"
 date:   2020-05-04
 categories: [Advanced JavaScript]
 tags: [programming, html, basics, javascript]
-index: 3
+index: 2
 ---
 
 Objects are a powerful way to create data structures, provide them with properties and methods. Having them interact with one another and much more. One of the powerful features we haven't yet looked at, is inheritance. 

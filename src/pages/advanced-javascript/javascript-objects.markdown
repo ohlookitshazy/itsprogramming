@@ -4,7 +4,7 @@ title:  "JavaScript Objects"
 date:   2020-05-04
 categories: [Advanced JavaScript]
 tags: [programming, html, basics, javascript]
-index: 1
+index: 0
 ---
 
 You probably noticed that we used some JavaScript objects previously, like "jQuery", "document", "Math" to name a few. They seem to be really useful and people seem to be making them. What are they?

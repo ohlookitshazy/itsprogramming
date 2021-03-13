@@ -4,7 +4,7 @@ title:  "JavaScript Methods"
 date:   2020-05-04
 categories: [Advanced JavaScript]
 tags: [programming, html, basics, javascript]
-index: 2
+index: 1
 ---
 
 Classes define blueprints for objects. Objects define multiple properties. Objects can also have functions, that they can perform (also known as "methods").

@@ -4,7 +4,7 @@ title:  "Algorithms"
 date:   2020-05-04
 categories: [Advanced JavaScript]
 tags: [programming, html, basics, javascript]
-index: 4
+index: 3
 ---
 
 So you've probably heard of the word "algorithms" by now, either in a good or a bad light, but in my opinion, they're just a tool, like any other. [Oxford says](https://www.lexico.com/en/definition/algorithm) that an algorithm is: 
