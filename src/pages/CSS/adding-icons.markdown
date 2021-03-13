@@ -4,7 +4,7 @@ title:  "Adding Icons"
 date:   2020-05-04
 categories: [CSS]
 tags: [programming, html, basics, css]
-index: 4
+index: 3
 ---
 
 Importing icons is just as easy as importing custom fonts. My favorite place to turn to, when I need any icons is [fontawesome.com](https://fontawesome.com/). As of writing this post, they have [1588 free icons](https://fontawesome.com/icons?d=gallery&m=free) for you to use!

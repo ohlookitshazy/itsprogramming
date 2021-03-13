@@ -4,7 +4,7 @@ title:  "Adding Google Fonts"
 date:   2020-03-28
 categories: [CSS]
 tags: [programming, html, basics, css]
-index: 3
+index: 2
 ---
 
 Let's start customizing HTML by changing fonts.

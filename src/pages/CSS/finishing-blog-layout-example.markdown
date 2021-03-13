@@ -4,7 +4,7 @@ title:  "Finishing the Blog Layout Example"
 date:   2020-04-25
 categories: [CSS]
 tags: [programming, html, basics, css]
-index: 6
+index: 5
 ---
 
 Let's finish the blog template! We will continue exactly where we left off in the previous post.

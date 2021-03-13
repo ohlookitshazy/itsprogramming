@@ -4,7 +4,7 @@ title:  "The Box Model"
 date:   2020-04-25
 categories: [CSS]
 tags: [programming, html, basics, css]
-index: 7
+index: 6
 ---
 
 We previously customized the spacing between elements via "margin" properties, like for example, the post element in the previous post (very meta):

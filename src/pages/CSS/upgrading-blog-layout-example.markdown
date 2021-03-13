@@ -4,7 +4,7 @@ title:  "Upgrading the Blog Layout Example"
 date:   2020-03-28
 categories: [CSS]
 tags: [programming, html, basics, css]
-index: 5
+index: 4
 ---
 
 Let's take the blog layout we looked at in the ["HTML Layout and Styles"](/html-layout-and-styles.html) post:

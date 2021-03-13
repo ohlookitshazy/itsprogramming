@@ -4,7 +4,7 @@ title:  "Don't Repeat Yourself"
 date:   2020-03-01
 categories: [CSS]
 tags: [programming, html, basics, css]
-index: 2
+index: 1
 ---
 
 Another general programming idea, similiar to "Separation of Concerns", is that you simply don't repeat yourself.

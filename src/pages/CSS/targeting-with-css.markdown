@@ -4,7 +4,7 @@ title:  "Targeting with CSS"
 date:   2020-02-24
 categories: [CSS]
 tags: [programming, html, basics, css]
-index: 1
+index: 0
 ---
 
 Let's continue where we left off in the previous post.
