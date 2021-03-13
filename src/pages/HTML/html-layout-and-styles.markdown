@@ -4,7 +4,7 @@ title:  "HTML Layout and Styles"
 date:   2020-02-23
 categories: [HTML]
 tags: [programming, html, basics]
-index: 3
+index: 2
 ---
 
 In the previous post we looked at the different elements that are most commonly used in websites. Let’s talk about layout. Obviously, after the content itself, the way it is presented is the second most important thing about a website. How easy is it to find stuff, is there always a way back and similiar problems must be tackled when creating a website. 

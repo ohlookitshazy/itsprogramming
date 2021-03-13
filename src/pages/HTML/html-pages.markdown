@@ -4,7 +4,7 @@ title:  "HTML Pages"
 date:   2020-02-23
 categories: [HTML]
 tags: [programming, html, basics]
-index: 2
+index: 1
 ---
 
 Since HTML is used to structure entire web pages, then let's write one!

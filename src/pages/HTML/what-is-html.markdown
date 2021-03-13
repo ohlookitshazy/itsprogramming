@@ -4,7 +4,7 @@ title:  "What is HTML?"
 date:   2020-02-23
 categories: [HTML]
 tags: [programming, html, basics]
-index: 1
+index: 0
 ---
 
 HTML or Hyper Text Markup Language serves as the backbone that holds all of the content of any webpage. Literally **all of them**.

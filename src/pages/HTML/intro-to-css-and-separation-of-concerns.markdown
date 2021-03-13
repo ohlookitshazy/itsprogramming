@@ -4,7 +4,7 @@ title:  "Intro to CSS and Separation of Concerns"
 date:   2020-02-24
 categories: [HTML]
 tags: [programming, html, basics, css]
-index: 4
+index: 3
 ---
 
 Previously we wrote styles directly on HTML elements. That is not the most convenient way, because imagine managing 50 files like those and what amount of effort it would take to just change the font style across all of them.
