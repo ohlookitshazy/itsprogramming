@@ -22,9 +22,17 @@ exports.createPages = async ({ graphql, actions }) => {
       allMarkdownRemark {
         edges {
           node {
+            excerpt
             fields {
               slug
             }
+            frontmatter {
+              date
+              categories
+              title
+              index
+            }
+            timeToRead
           }
         }
       }
@@ -32,13 +40,23 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    let categoryIfExists;
+
+    if(node.frontmatter.categories != undefined || node.frontmatter.categories != null){
+      categoryIfExists = node.frontmatter.categories[0].toString();
+    } else {
+      categoryIfExists = "";
+    }
+
     createPage({
       path: node.fields.slug,
       component: path.resolve(`./src/templates/blog-post.js`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
-        slug: node.fields.slug
+        slug: node.fields.slug,
+        category: categoryIfExists,
+        index: node.frontmatter.index
       }
     })
   });

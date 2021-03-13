@@ -46,6 +46,11 @@ a {
     padding: 0 30% !important;
 }
 
+.post-footer-pagination {
+    padding: 0 30%;
+    display: flex;
+}
+
 .p-card .p-card-title {
     color: transparent;
     background: -webkit-linear-gradient(70deg,#fa5cdd ,#fae07a );
@@ -59,6 +64,8 @@ a {
     margin-top: 10px;
     background: transparent !important;
     padding: 0 30%;
+    box-shadow: none !important;
+    border: 0;
 }
 
 .post-full-card-title,
@@ -213,5 +220,9 @@ a {
 
     .category-post-wrapper {
         padding: 0 10% !important;
+    }
+
+    .post-footer-pagination {
+        padding: 0;
     }
 }

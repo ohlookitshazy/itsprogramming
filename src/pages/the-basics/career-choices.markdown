@@ -4,7 +4,7 @@ title:  "Career Choices"
 date:   2020-12-04
 categories: [The Basics]
 tags: [the web, programming, basics]
-index: 4
+index: 3
 ---
 
 As 2020 draws to a close, I figured it would be useful to take a look at all the lucrative career choices that are currently out there in the job market.

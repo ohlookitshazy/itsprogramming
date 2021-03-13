@@ -4,7 +4,7 @@ title:  "How to Write Code?"
 date:   2020-02-23
 categories: [The Basics]
 tags: [programming, general, basics, visual studio code]
-index: 5
+index: 4
 ---
 
 There are many different options when it comes down where to write your code. It can be as simple as writing it in your regular notepad, that comes with each Windows installation and you can use an IDE - Independent Development Environment, that means it has many different features to allow you to develop code in a professional environment, where code errors get highlighted and there are lot's of different ways to debug code.

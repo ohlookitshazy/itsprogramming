@@ -4,7 +4,7 @@ title:  "What is Programming?"
 date:   2020-02-22
 categories:  [The Basics]
 tags: [programming, general, basics]
-index: 1
+index: 0
 ---
 
 Starting with the simple question of - What is programming? 

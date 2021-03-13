@@ -4,7 +4,7 @@ title:  "What makes a good programmer?"
 date:   2020-02-23
 categories: [The Basics]
 tags: [programming, general, basics]
-index: 3
+index: 2
 ---
 
 In order to actually succeed as a programmer, you actually need 3 traits:

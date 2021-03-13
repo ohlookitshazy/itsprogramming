@@ -4,7 +4,7 @@ title:  "How to be a programmer?"
 date:   2020-02-23
 categories: [The Basics]
 tags: [programming, general, basics]
-index: 2
+index: 1
 ---
 
 I want to completely destroy the following stereotypes right here and now: 

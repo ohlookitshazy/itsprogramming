@@ -2,6 +2,7 @@
 layout: post
 title:  "ItsProgramming: Intro"
 date:   2020-02-18
+index: 0
 ---
 
 Welcome to the new ItsProgramming! I've switched to an entirely different setup for the website. I went from using Wordpress to using [Jekyll](https://jekyllrb.com/), a Static Website Generator and [GitHub](https://www.github.com) for hosting. 
