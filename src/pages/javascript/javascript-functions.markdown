@@ -4,7 +4,7 @@ title:  "JavaScript Functions"
 date:   2020-04-26
 categories: [JavaScript]
 tags: [programming, basics, javascript]
-index: 3
+index: 2
 ---
 
 There is a way to reuse your code within the file itself too, very useful when your code grows into hundreds of lines.

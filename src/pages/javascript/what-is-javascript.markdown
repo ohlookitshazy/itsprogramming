@@ -4,7 +4,7 @@ title:  "What is JavaScript?"
 date:   2020-04-25
 categories: [JavaScript]
 tags: [programming, basics, javascript]
-index: 1
+index: 0
 ---
 
 So far we have looked at HTML and CSS, but you must've noticed the "JS" tab in the Codepen examples.

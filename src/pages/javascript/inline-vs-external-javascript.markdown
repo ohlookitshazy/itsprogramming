@@ -4,7 +4,7 @@ title:  "Inline vs External JavaScript"
 date:   2020-04-26
 categories: [JavaScript]
 tags: [programming, basics, javascript]
-index: 4
+index: 3
 ---
 
 Great! We're already writing some basic JavaScript! So far we've done it in Codepen examples, so how do we go about setting them up locally on our computer?

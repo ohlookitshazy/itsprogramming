@@ -4,7 +4,7 @@ title:  "While Loops and Timers"
 date:   2020-04-26
 categories: [JavaScript]
 tags: [programming, basics, javascript]
-index: 5
+index: 4
 ---
 
 Let's play around with a few of the things we covered previously so that you can practice them in different scenarios.

@@ -4,7 +4,7 @@ title:  "JavaScript Basics"
 date:   2020-04-26
 categories: [JavaScript]
 tags: [programming, basics, javascript]
-index: 2
+index: 1
 ---
 
 We looked at a few ideas of JavaScript in the previous post, let's go in more detail about each one.
