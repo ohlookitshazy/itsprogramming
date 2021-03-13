@@ -4,7 +4,7 @@ title:  "Responsive Columns"
 date:   2020-05-02
 categories: [Bootstrap]
 tags: [programming, bootstrap, html, css, javascript]
-index: 6
+index: 5
 ---
 
 Previously we looked at the most basic usage of columns within rows. Bootstrap allows you to individually control how each column behaves when it has to respond to different screen sizes.

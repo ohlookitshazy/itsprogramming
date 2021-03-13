@@ -4,7 +4,7 @@ title:  "What is Bootstrap?"
 date:   2020-05-01
 categories: [Bootstrap]
 tags: [programming, bootstrap, html, css, javascript]
-index: 1
+index: 0
 ---
 
 Now that we know what dev tools are and what the different windows can be used for, let's put it to good use. So let's bring in more code to look at and learn how to build modern, responsive websites.

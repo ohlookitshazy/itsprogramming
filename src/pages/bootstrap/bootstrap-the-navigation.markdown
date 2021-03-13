@@ -4,7 +4,7 @@ title:  "Bootstrap: Navigation"
 date:   2020-05-02
 categories: [Bootstrap]
 tags: [programming, bootstrap, html, css, javascript]
-index: 4
+index: 3
 ---
 
 Cool, so we took a look at creating a simple page layout previously with Bootstrap components, using the Bootstrap grid. Websites usually have more than one page nowadays (shush SPA devs).

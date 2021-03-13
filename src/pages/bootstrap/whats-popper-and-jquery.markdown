@@ -4,7 +4,7 @@ title:  "So What's Popper and jQuery?"
 date:   2020-05-02
 categories: [Bootstrap]
 tags: [programming, bootstrap, html, css, javascript]
-index: 8
+index: 7
 ---
 
 We've covered the majority of Bootstrap in big steps by now. We haven't yet looked at the other 2 script imports, namely "Popper" and "jQuery", what are those?

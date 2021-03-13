@@ -4,7 +4,7 @@ title:  "Bootstrap: The Basics"
 date:   2020-05-01
 categories: [Bootstrap]
 tags: [programming, bootstrap, html, css, javascript]
-index: 2
+index: 1
 ---
 
 After importing Bootstrap succesfuly, we can get to building a layout! Let's see how the system works first, so that we don't get headaches of "what goes where" later.

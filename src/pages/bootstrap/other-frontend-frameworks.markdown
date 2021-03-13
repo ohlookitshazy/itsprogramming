@@ -4,7 +4,7 @@ title:  "Other Frontend Frameworks"
 date:   2020-05-02
 categories: [Bootstrap]
 tags: [programming, bootstrap, html, css, javascript]
-index: 7
+index: 6
 ---
 
 Of course Bootstrap is not the only framework out there and some people might not like it. I think it's fine, I've been using it for a few years and see no problems with it thus far. For the sake of context, let's take a look at similiar frontend frameworks. Also, what does "frontend" even mean?

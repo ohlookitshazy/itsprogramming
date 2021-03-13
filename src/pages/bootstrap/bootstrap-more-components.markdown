@@ -4,7 +4,7 @@ title:  "Bootstrap: More Components!"
 date:   2020-05-02
 categories: [Bootstrap]
 tags: [programming, bootstrap, html, css, javascript]
-index: 5
+index: 4
 ---
 
 Let's look at more components, so that you feel more comfortable using them in your projects. Instead of going through each aspect and taking the fun out of exploring it for yourself, I will just mention the components here, based on simplicity and potential of use in the blog example we already started. 

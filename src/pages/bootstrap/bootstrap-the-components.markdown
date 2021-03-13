@@ -4,7 +4,7 @@ title:  "Bootstrap: Components"
 date:   2020-05-02
 categories: [Bootstrap]
 tags: [programming, bootstrap, html, css, javascript]
-index: 3
+index: 2
 ---
 
 Bootstrap offers way more, than just an efficient way to position your content. It offers [a pretty big list](https://getbootstrap.com/docs/4.4/components/alerts/) of premade components, which you have to only copy over and configure.
