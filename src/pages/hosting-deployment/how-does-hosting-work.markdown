@@ -4,7 +4,7 @@ title:  "How does Hosting Work?"
 date:   2020-05-06
 categories: [Hosting & Deployment]
 tags: [programming, html, basics, javascript, deployment]
-index: 1
+index: 0
 ---
 
 By now you've probably got your own little designs going, you have some JavaScript doing cool stuff, CSS doing cool stuff. You'd probably thought once or twice about - how could I share it? How could I show someone what my skill level is? Or perhaps you have already helped someone fix up their site and you'd like to add it to your portfolio. Time to talk about hosting.
