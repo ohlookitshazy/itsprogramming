@@ -6,6 +6,14 @@ module.exports = {
     "gatsby-plugin-sass",
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "UA-115446341-4"
+        ]
+      }
+    },
+    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
@@ -26,9 +34,9 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
-        path: "./src/pages/",
+        path: "./src/pages/"
       },
-      __key: "pages",
-    },
-  ],
+      __key: "pages"
+    }
+  ]
 };
